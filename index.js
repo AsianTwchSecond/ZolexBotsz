@@ -26,7 +26,7 @@ function joinBot() {
   addLog("Starting bot...")
 
   bot = mineflayer.createBot({
-    host: "play.leztusasmp.xyz",
+    host: "sylixsmp.qyrodev.fun",
     username: "Xacrifizee_",
     version: false
   })
@@ -36,7 +36,7 @@ function joinBot() {
     addLog("Bot spawned")
 
     setTimeout(() => bot.chat("/login <kurt>"), 3000)
-    setTimeout(() => bot.chat("/eco"), 6000)
+    setTimeout(() => bot.chat("/queue lifesteal"), 6000)
 
     // Auto jump every 5s
     bot.jumpInterval = setInterval(() => {
